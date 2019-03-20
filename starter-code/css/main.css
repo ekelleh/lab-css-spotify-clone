@@ -6,3 +6,156 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.nav-bar {
+    padding: 14px 0px;
+    height: 80px;
+    color: #00b172;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.nav-bar img {
+    width: 200px;
+}
+
+.nav-bar-item {
+    list-style: none;
+    color: #1a1a1a;
+}
+
+.nav-bar ul {
+    float: right;
+    width: 40vw;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+header {
+    width: auto;
+    background: url("../images/landing.jpg");
+    color: white;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 650px;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: bolder;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.heading-underline {
+    text-decoration: underline;
+    text-decoration-color: #00b172;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #00b172;
+    line-height: 30px;
+}
+
+.text-container {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-right: 100px;
+    padding-left: 100px;
+    display: flex;
+    font-size: 20px;
+    line-height: 28px;
+    align-content: space-between;
+    text-align: center;
+}
+
+.text-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.text-container img {
+    height: 80px;
+}
+
+.text-container-bottom {
+    background-color: #00b172;
+    height: 600px;
+    color: white;
+    font-size: 20px;
+    line-height: 28px;
+    background-image: url(../images/spotify-icon-white.png);
+    background-size: 10vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.text-container-bottom h3 {
+    color: white;
+    text-align: left;
+}
+
+.text-container-bottom p {
+    max-width: 350px;
+}
+
+.text-container-bottom .heading-underline {
+    text-decoration-color: white;
+}
+
+.white-logo {
+    width: 80px;
+}
+
+.kanye {
+    display: flex;
+    align-content: center;
+}
+
+.kanye img {
+    height: 450px;
+    margin-right: 70px;
+    margin-top: 80px;
+}
