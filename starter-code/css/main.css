@@ -18,14 +18,14 @@ body {
 }
 
 .nav-bar {
-    padding: 14px 0px;
     height: 80px;
     color: #00b172;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     align-content: space-between;
-    padding: 10px;
+    padding: 10px 20px;
     flex-direction: column;
     flex-wrap: wrap;
 }
@@ -37,6 +37,11 @@ body {
 .nav-bar-item {
     list-style: none;
     color: #1a1a1a;
+}
+
+.nav-bar a {
+    color: black;
+    text-decoration: none;
 }
 
 .nav-bar ul {
@@ -100,7 +105,7 @@ h3 {
     display: flex;
     font-size: 20px;
     line-height: 28px;
-    align-content: space-between;
+    justify-content: space-around;
     text-align: center;
 }
 
